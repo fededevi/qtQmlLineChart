@@ -10,7 +10,7 @@ Window {
     Rectangle {
         width: 512
         height: 512
-        color: "#00FF00"
+        color: "#000000"
         anchors.fill: parent
     }
 

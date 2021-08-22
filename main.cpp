@@ -41,17 +41,18 @@ int main(int argc, char *argv[])
     data.append(QVariant(QVariantList{53, 104 }));
     data.append(QVariant(QVariantList{54, 103 }));
     data.append(QVariant(QVariantList{55, 90 }));
-    data.append(QVariant(QVariantList{56, 80 }));
-    data.append(QVariant(QVariantList{57, 70 }));
-    data.append(QVariant(QVariantList{58, 60 }));
-    data.append(QVariant(QVariantList{59, 50 }));
+    data.append(QVariant(QVariantList{56, 85 }));
+    data.append(QVariant(QVariantList{57, 73 }));
+    data.append(QVariant(QVariantList{58, 57 }));
+    data.append(QVariant(QVariantList{59, 48 }));
     data.append(QVariant(QVariantList{60, 50 }));
-    data.append(QVariant(QVariantList{61, 50 }));
-    data.append(QVariant(QVariantList{62, 50 }));
-    data.append(QVariant(QVariantList{63, 50 }));
-    data.append(QVariant(QVariantList{64, 50 }));
-    data.append(QVariant(QVariantList{65, 50 }));
-    data.append(QVariant(QVariantList{66, 50 }));
+    data.append(QVariant(QVariantList{61, 51 }));
+    data.append(QVariant(QVariantList{62, 52 }));
+    /*
+    data.append(QVariant(QVariantList{63, 54 }));
+    data.append(QVariant(QVariantList{64, 52 }));
+    data.append(QVariant(QVariantList{65, 51 }));
+    data.append(QVariant(QVariantList{66, 50 }));*/
     engine.rootContext()->setContextProperty("lineData", data);
 
 
