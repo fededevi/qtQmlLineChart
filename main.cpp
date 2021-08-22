@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 
     QVariantList data;
 /*
-    for (double x = 0; x < 10.0; x = x + 0.01) {
-        data.append(QVariant(QVariantList{x, sin(x*12)}));
+    for (double x = 0; x < 12.0; x = x + 0.1) {
+        data.append(QVariant(QVariantList{x, 50 + 50 *sin(x)}));
     }*/
 
     data.append(QVariant(QVariantList{32, 0  }));
@@ -48,11 +48,12 @@ int main(int argc, char *argv[])
     data.append(QVariant(QVariantList{60, 50 }));
     data.append(QVariant(QVariantList{61, 51 }));
     data.append(QVariant(QVariantList{62, 52 }));
-    /*
     data.append(QVariant(QVariantList{63, 54 }));
     data.append(QVariant(QVariantList{64, 52 }));
     data.append(QVariant(QVariantList{65, 51 }));
-    data.append(QVariant(QVariantList{66, 50 }));*/
+    data.append(QVariant(QVariantList{66, 48 }));
+    data.append(QVariant(QVariantList{67, 0 }));
+
     engine.rootContext()->setContextProperty("lineData", data);
 
 
